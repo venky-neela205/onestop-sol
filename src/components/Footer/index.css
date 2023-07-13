@@ -1,0 +1,25 @@
+.footer1 {
+    background-color: black;
+    border: 2px solid black;
+    color: #ffffff;
+    text-align: center;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    background-color: black;
+    color: #ffffff;
+    padding: 5px;
+  }
+  @media (min-width: 500px) {
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: black;
+      color: #ffffff;
+      padding: 5px;
+    }
+  }
